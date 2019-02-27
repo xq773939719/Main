@@ -9,7 +9,7 @@
 }
 
 #bgchange:hover {
-    color: #F25A5D;
+    color: #BE3739;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
 }
@@ -37,7 +37,7 @@ div.about--banner a {
 }
 
 a:hover {
-    color: #F25A5D;
+    color: #BE3739;
 }
 
 div .friend {
@@ -156,19 +156,19 @@ div .other {
 }
 
 .intro--options>a:hover {
-    color: #F25A5D;
+    color: #BE3739;
 }
 
 ::-moz-selection {
-    background: #F25A5D;
+    background: #BE3739;
 }
 
 ::selection {
-    background: #F25A5D;
+    background: #BE3739;
 }
 
 ::-moz-selection {
-    background: #F25A5D;
+    background: #BE3739;
 }
 
 .side-nav li:nth-child(6)::before {
@@ -314,7 +314,7 @@ div .other {
         font-size: 12px;
         font-weight: 700;
         text-transform: uppercase;
-        background-color: #F25A5D;
+        background-color: #BE3739;
         border: 0;
         border-radius: 0
     }
@@ -400,11 +400,11 @@ div .other {
 a.highlight {
     font-weight: bold;
     border-radius: 4px;
-    background-color: #F25A5D;
+    background-color: #BE3739;
 }
 
 a.highlight:hover {
-    color: #F25A5D;
+    color: #BE3739;
     background-color: #fafafa;
 }
 
