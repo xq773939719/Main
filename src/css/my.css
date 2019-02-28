@@ -2,16 +2,16 @@
     padding: 5px 5px 5px 5px;
     text-decoration: none;
     color: #fff;
-    font-weight: 700;
+    font-weight: normal;
     text-transform: uppercase;
     background-color: transparent;
-    border-radius: 2px;
+    border-radius: 0px;
 }
 
 #bgchange:hover {
     color: #BE3739;
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
+    transform: scale(1);
+    -webkit-transform: scale(1);
 }
 
 #friend a, #other a {
@@ -27,13 +27,22 @@
     white-space: nowrap;
 }
 
+* {
+    text-transform: none;
+}
 
 div.intro--banner button {
     margin: 5px;
+    text-transform: none;
 }
 
 div.about--banner a {
     margin: 2px, 5px, 2px, 5px;
+    text-transform: none;
+}
+
+div.intro--options h3 {
+    text-transform: none;
 }
 
 a:hover {
@@ -193,6 +202,10 @@ div .other {
 .intro--banner::after {
     display: none;
     margin-top: auto;
+}
+
+.intro--banner::before {
+    display: none;
 }
 
 @media(max-width:900px) {
@@ -418,7 +431,6 @@ a.lowlight:hover {
     color: #000000;
     background-color: #d1cfcf;
 }
-
 
 .about--banner::after {
     top: 190px;
