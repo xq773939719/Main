@@ -441,7 +441,7 @@ a.gray {
 
 a.gray:hover {
     color: #000000;
-    background-color: #d1cfcf;
+    background-color: #FAFAFA;
 }
 
 a.green {
@@ -452,5 +452,5 @@ a.green {
 
 a.green:hover {
     color: #48A76B;
-    background-color: #d1cfcf;
+    background-color: #FAFAFA;
 }
