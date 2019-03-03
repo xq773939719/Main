@@ -410,28 +410,6 @@ div .other {
     transform: scale(1.0);
 }
 
-a.highlight {
-    font-weight: bold;
-    border-radius: 4px;
-    background-color: #BE3739;
-}
-
-a.highlight:hover {
-    color: #BE3739;
-    background-color: #fafafa;
-}
-
-a.lowlight {
-    font-weight: bold;
-    border-radius: 4px;
-    background-color: #585656;
-}
-
-a.lowlight:hover {
-    color: #000000;
-    background-color: #d1cfcf;
-}
-
 .about--banner::after {
     top: 190px;
     left: 600px;
@@ -443,13 +421,31 @@ a.lowlight:hover {
     right: 0px
 }
 
-a.light {
+a.red {
+    background-color: #BE3739;
+}
+
+a.red:hover {
+    color: #BE3739;
+    background-color: #d1cfcf;
+}
+
+a.gray {
+    background-color: #585656;
+}
+
+a.gray:hover {
+    color: #000000;
+    background-color: #d1cfcf;
+}
+
+a.green {
     font-weight: bold;
     border-radius: 4px;
     background-color: #48A76B;
 }
 
-a.light:hover {
+a.green:hover {
     color: #48A76B;
     background-color: #d1cfcf;
 }
