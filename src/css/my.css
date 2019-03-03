@@ -442,3 +442,14 @@ a.lowlight:hover {
     bottom: 0px;
     right: 0px
 }
+
+a.light {
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #48A76B;
+}
+
+a.light:hover {
+    color: #48A76B;
+    background-color: #d1cfcf;
+}
