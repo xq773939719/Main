@@ -430,7 +430,7 @@ a.red {
 
 a.red:hover {
     color: #BE3739;
-    background-color: #fafafa;
+    background-color: #eeeeee;
 }
 
 a.gray {
@@ -441,7 +441,7 @@ a.gray {
 
 a.gray:hover {
     color: #000000;
-    background-color: #FAFAFA;
+    background-color: #eeeeee;
 }
 
 a.green {
@@ -452,5 +452,5 @@ a.green {
 
 a.green:hover {
     color: #48A76B;
-    background-color: #FAFAFA;
+    background-color: #eeeeee;
 }
