@@ -410,6 +410,8 @@ div .other {
     transform: scale(1.0);
 }
 
+
+
 .about--banner::after {
     top: 190px;
     left: 600px;
@@ -420,17 +422,20 @@ div .other {
     bottom: 0px;
     right: 0px
 }
-
 a.red {
+    font-weight: bold;
+    border-radius: 4px;
     background-color: #BE3739;
 }
 
 a.red:hover {
     color: #BE3739;
-    background-color: #d1cfcf;
+    background-color: #fafafa;
 }
 
 a.gray {
+    font-weight: bold;
+    border-radius: 4px;
     background-color: #585656;
 }
 
