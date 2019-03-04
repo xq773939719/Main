@@ -410,8 +410,6 @@ div .other {
     transform: scale(1.0);
 }
 
-
-
 .about--banner::after {
     top: 190px;
     left: 600px;
@@ -422,8 +420,21 @@ div .other {
     bottom: 0px;
     right: 0px
 }
+a {
+    transition: color .2s, background-color .2s;
+}
+
+a.black {
+    border-radius: 4px;
+    background-color: #111111;
+}
+
+a.black:hover {
+    color: #111111;
+    background-color: #eeeeee;
+}
+
 a.red {
-    font-weight: bold;
     border-radius: 4px;
     background-color: #BE3739;
 }
@@ -433,19 +444,17 @@ a.red:hover {
     background-color: #eeeeee;
 }
 
-a.gray {
-    font-weight: bold;
+a.orange {
     border-radius: 4px;
-    background-color: #585656;
+    background-color: #F68034;
 }
 
-a.gray:hover {
-    color: #000000;
+a.orange:hover {
+    color: #F68034;
     background-color: #eeeeee;
 }
 
 a.green {
-    font-weight: bold;
     border-radius: 4px;
     background-color: #48A76B;
 }
@@ -456,7 +465,6 @@ a.green:hover {
 }
 
 a.blue {
-    font-weight: bold;
     border-radius: 4px;
     background-color: #5F85D4;
 }
@@ -466,24 +474,22 @@ a.blue:hover {
     background-color: #eeeeee;
 }
 
-a.orange {
-    font-weight: bold;
-    border-radius: 4px;
-    background-color: #F68034;
-}
-
-a.orange:hover {
-    color: #F68034;
-    background-color: #eeeeee;
-}
-
 a.purple {
-    font-weight: bold;
     border-radius: 4px;
     background-color: #9C60AA;
 }
 
 a.purple:hover {
     color: #9C60AA;
+    background-color: #eeeeee;
+}
+
+a.gray {
+    border-radius: 4px;
+    background-color: #585656;
+}
+
+a.gray:hover {
+    color: #000000;
     background-color: #eeeeee;
 }
