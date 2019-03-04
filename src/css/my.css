@@ -454,3 +454,36 @@ a.green:hover {
     color: #48A76B;
     background-color: #eeeeee;
 }
+
+a.blue {
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #5F85D4;
+}
+
+a.blue:hover {
+    color: #5F85D4;
+    background-color: #eeeeee;
+}
+
+a.orange {
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #F68034;
+}
+
+a.orange:hover {
+    color: #F68034;
+    background-color: #eeeeee;
+}
+
+a.purple {
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #9C60AA;
+}
+
+a.purple:hover {
+    color: #9C60AA;
+    background-color: #eeeeee;
+}
