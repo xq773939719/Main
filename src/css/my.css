@@ -157,6 +157,7 @@ div .other {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+    
 }
 
 .intro--options>a {
@@ -493,3 +494,5 @@ a.gray:hover {
     color: #000000;
     background-color: #eeeeee;
 }
+
+
