@@ -8,7 +8,9 @@
     -o-animation: rainbow 15s ease infinite;
     animation: rainbow 15s ease infinite;
 }
-
+.change:hover {
+    color: #eeeeee;
+}
 @-webkit-keyframes rainbow {
     0% {
         background-position: 0% 82%
