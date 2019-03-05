@@ -157,7 +157,6 @@ div .other {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
-    
 }
 
 .intro--options>a {
@@ -421,6 +420,7 @@ div .other {
     bottom: 0px;
     right: 0px
 }
+
 a {
     transition: color .2s, background-color .2s;
 }
@@ -495,4 +495,13 @@ a.gray:hover {
     background-color: #eeeeee;
 }
 
+a.new {
+    border-radius: 0px;
+    color: #111111;
+    background-color: #eeeeee;
+}
 
+a.new:hover {
+    color: #eeeeee;
+    background-color: #111111;
+}
