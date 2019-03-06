@@ -258,6 +258,10 @@ div .other {
     #other {
         font-size: 75%;
     }
+    .about--banner {
+        line-height: 25px;
+    }
+
 }
 
 @media(max-width:600px) {
@@ -332,7 +336,10 @@ div .other {
         border-radius: 0
     }
     #other {
-        font-size: 75%;
+        font-size: 60%;
+    }
+    .about--banner {
+        line-height: 24px;
     }
 }
 
