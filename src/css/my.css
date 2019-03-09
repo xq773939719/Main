@@ -74,12 +74,12 @@ https://www.jianshu.com/p/9220b0aaa7c7
 /*模糊效果*/
 
 .mask {
-    background-color: rgba(0, 0, 0, 0.4);
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
     width: 100%;
     height: 100%;
     z-index: -1;
-    padding: 5px;
+    padding: 0px;
 }
 
 .blur {
@@ -90,7 +90,7 @@ https://www.jianshu.com/p/9220b0aaa7c7
     height: 100%;
     z-index: -2;
     zoom: 1;
-    padding: 5px;
+    padding: 0px;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
