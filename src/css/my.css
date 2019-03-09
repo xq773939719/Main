@@ -432,7 +432,7 @@ a {
 }
 
 a.black {
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #111111;
 }
 
@@ -442,7 +442,7 @@ a.black:hover {
 }
 
 a.red {
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #BE3739;
 }
 
@@ -452,7 +452,7 @@ a.red:hover {
 }
 
 a.orange {
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #F68034;
 }
 
@@ -462,7 +462,7 @@ a.orange:hover {
 }
 
 a.green {
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #48A76B;
 }
 
@@ -472,7 +472,7 @@ a.green:hover {
 }
 
 a.blue {
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #5F85D4;
 }
 
@@ -482,7 +482,7 @@ a.blue:hover {
 }
 
 a.purple {
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #9C60AA;
 }
 
@@ -492,7 +492,7 @@ a.purple:hover {
 }
 
 a.gray {
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #585656;
 }
 
