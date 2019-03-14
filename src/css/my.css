@@ -449,6 +449,7 @@ div .other {
 .about--banner {
     position: relative;
     height: auto;
+    overflow: auto;
 
 }
 
