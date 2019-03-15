@@ -409,7 +409,7 @@ div .other {
     }
 }
 
-@media(max-height: 500px) {
+@media(max-height: 400px) {
     br {
         display: none;
     }
