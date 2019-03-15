@@ -14,8 +14,7 @@
     -webkit-transform: scale(1);
 }
 
-#friend a,
-#other a {
+#friend a, #other a {
     font-weight: normal;
     font-size: 90%;
     text-align: center;
@@ -213,19 +212,15 @@ div .other {
     .intro--banner {
         height: 450px
     }
-
     .intro--banner h1 {
         font-size: 55px
     }
-
     .intro--options>a {
         margin-right: 30px
     }
-
     .intro--options>a:last-child {
         margin-right: 0
     }
-
     .work-request--options {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -236,9 +231,7 @@ div .other {
         -ms-flex-pack: distribute;
         justify-content: space-around
     }
-
-    .work-request--options .options-a,
-    .work-request--options .options-b {
+    .work-request--options .options-a, .work-request--options .options-b {
         display: block;
         width: auto
     }
@@ -248,29 +241,23 @@ div .other {
     .intro--banner {
         height: 400px;
     }
-
     .intro--banner h1 {
         font-size: 44px
     }
-
     .intro--options {
         display: block
     }
-
     .intro--options>a {
         display: block;
         max-width: 100%;
         margin: 0 0 30px 0
     }
-
     .intro--options>a:last-child {
         margin-bottom: 0
     }
-
     #other {
         font-size: 75%;
     }
-
     .about--banner {
         line-height: 25px;
     }
@@ -280,7 +267,6 @@ div .other {
     .intro--banner {
         height: 420px
     }
-
     .intro--banner h1 {
         font-size: 55px
     }
@@ -290,7 +276,6 @@ div .other {
     .intro--banner {
         height: auto
     }
-
     .intro--banner h1 {
         margin-top: 20px;
     }
@@ -326,7 +311,6 @@ div .other {
     .intro--options {
         display: none;
     }
-
     .work-request--options label {
         width: 100px;
         margin-bottom: 5px;
@@ -335,13 +319,10 @@ div .other {
         font-size: 8px;
         font-weight: normal;
     }
-
-    .work-request--information .information-name,
-    .work-request--information .information-email {
+    .work-request--information .information-name, .work-request--information .information-email {
         height: 20px;
         font-size: 12px
     }
-
     .work-request input[type="submit"] {
         width: 400px;
         max-width: 80%;
@@ -353,43 +334,34 @@ div .other {
         border: 0;
         border-radius: 0
     }
-
     #other {
         font-size: 60%;
     }
-
     .about--banner {
         line-height: 24px;
     }
-
     .about-banner::-webkit-scrollbar {
         width: 0 !important
     }
-
-
-
-
+    br {
+        display: none;
+    }
 }
 
 @media(max-height:600px) {
     .l-side-nav {
         display: none;
     }
-
-    h1,
-    h2 {
+    h1, h2 {
         display: none;
     }
-
     .work-request--options {
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
         justify-content: space-between
     }
-
-    .work-request--options .options-a,
-    .work-request--options .options-b {
+    .work-request--options .options-a, .work-request--options .options-b {
         display: block;
         width: 10%;
     }
@@ -400,12 +372,10 @@ div .other {
         height: auto;
         margin-top: 20px;
     }
-
     .about--banner {
         height: auto;
         margin-top: 20px;
     }
-
     .work-request--options {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -416,15 +386,9 @@ div .other {
         -ms-flex-pack: distribute;
         justify-content: space-around
     }
-
-    .work-request--options .options-a,
-    .work-request--options .options-b {
+    .work-request--options .options-a, .work-request--options .options-b {
         display: block;
         width: auto
-    }
-
-    br {
-        display: none;
     }
 }
 
