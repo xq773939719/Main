@@ -343,9 +343,7 @@ div .other {
     .about-banner::-webkit-scrollbar {
         width: 0 !important
     }
-    br {
-        display: none;
-    }
+    
 }
 
 @media(max-height:600px) {
@@ -364,6 +362,9 @@ div .other {
     .work-request--options .options-a, .work-request--options .options-b {
         display: block;
         width: 10%;
+    }
+    br {
+        display: none;
     }
 }
 
