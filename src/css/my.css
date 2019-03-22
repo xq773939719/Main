@@ -259,7 +259,7 @@ div .other {
         font-size: 75%;
     }
     .about--banner {
-        line-height: 25px;
+        line-height: 24px;
     }
 }
 
@@ -338,7 +338,8 @@ div .other {
         font-size: 60%;
     }
     .about--banner {
-        line-height: 24px;
+        
+        line-height: 28px;
     }
     .about-banner::-webkit-scrollbar {
         width: 0 !important
