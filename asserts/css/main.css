@@ -1,197 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+/* reset CSS */
+
+table {
+    font-size: 100%;
+}
+
+/* end reset CSS */
+
 body {
-    background: #000;
-    color: #fff;
-    font-family: "Lucida Console", Monaco, monospace;
-    line-height: 1.5;
+    font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif, monospace;
+    font-size: 16px;
+}
+
+body.mobile {
+    font-size: 16px;
+}
+
+.navbar-brand {
+    font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif, monospace;
+    font-size: 100%;
+}
+
+p {
+    font-weight: normal;
+}
+
+.list-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-group-item {
+    text-align: center;
+    /*cursor: pointer;*/
+    width: 100%;
+    height: fit-content;
+    padding: 20px 8px;
+    margin: 10px auto;
+    border-radius: 10px !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border: 0px solid black;
+    background-color: transparent;
+    max-width: 900px;
+}
+
+.list-group-item a {
+    font-weight: lighter;
+    margin: 0px;
+    font-size: 75%;
+    line-height: 32px;
+    padding: 6px 8px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.list-group-item a:hover {
+    color: #000000;
+    height: fit-content;
+    background-color: #d1cfcf;
+    cursor: pointer;
+}
+
+li.list-group-item:hover {
+    /*background-color: #eee;*/
+    font-size: 100%;
+}
+
+.panel {
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+.panel-default>.panel-heading {
+    background-image: none;
+    background-color: #fff;
+    font-size: 100%;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: #fff;
+    box-shadow: none;
+    font-size: 100%;
+}
+
+.navbar-brand, .navbar-nav, .navbar-header a {
+    font-weight: lighter;
+    font-size: 90%;
+}
+
+div.outer {
+    margin: 5% 10% 5% 10%;
+}
+
+@media(max-width: 767px) {
+    .list-group-item a {
+        margin: 0px;
+        font-size: 80%;
+        line-height: 36px;
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+    div.outer {
+        margin: 50px 10px;
+    }
+    
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
-    border-bottom: solid 2px;
+    transition: color .2s, background-color .2s;
 }
 
-body {
-    background-image: url(https://api.ixiaowai.cn/api/api.php);
-    min-height: 90vh;
+a.category {
+    font-style: normal;
+    font-weight: normal;
+    margin: 20px 0px;
+    padding: 10px 12px;
+    color: #eeeeee;
+    border-radius: 10px;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 45px;
+    font-size: 100%;
 }
 
-@media (min-width: 300px) {
-    body {
-        
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        
-    }
-
-    .content {
-        width: 200px;
-        height: 300px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        background-color: #333;
-        padding: 45px 20px 20px;
-        box-sizing: border-box;
-        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-        border-radius: 5px 5px 0 0;
-        opacity: 0.9;
-    }
-
-    .browser-bar {
-        opacity: 0.95;
-        background: #f9f9f3;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        padding: 5px;
-        overflow: hidden;
-        border-radius: 5px 5px 0 0;
-    }
-
-    .button {
-        display: inline-block;
-        float: left;
-        border-radius: 50%;
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
-
-    .close {
-        background: #fc635d;
-    }
-
-    .min {
-        background: #fdbc40;
-    }
-
-    .max {
-        background: #34c84a;
-    }
+a.category:hover {
+    color: #111111;
+    background-color: #eeeeee;
 }
 
-@media (min-width: 640px ) {
-    body {
-        
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-
-    }
-
-    .content {
-        width: 500px;
-        height: 300px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        background-color: #333;
-        padding: 45px 20px 20px;
-        box-sizing: border-box;
-        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-        border-radius: 5px 5px 0 0;
-        opacity: 0.9;
-    }
-
-    .browser-bar {
-        opacity: 0.95;
-        background: #f9f9f3;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        padding: 5px;
-        overflow: hidden;
-        border-radius: 5px 5px 0 0;
-    }
-
-    .button {
-        display: inline-block;
-        float: left;
-        border-radius: 50%;
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
-
-    .close {
-        background: #fc635d;
-    }
-
-    .min {
-        background: #fdbc40;
-    }
-
-    .max {
-        background: #34c84a;
-    }
+a.black {
+    border-radius: 5px;
+    background-color: #111111;
 }
 
-@media (min-width: 901px) {
-    body {
-        
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        
-    }
+a.black:hover {
+    color: #111111;
+    background-color: #eeeeee;
+}
 
-    .content {
-        width: 800px;
-        height: 450px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        background-color: #333;
-        padding: 45px 20px 20px;
-        box-sizing: border-box;
-        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-        border-radius: 5px 5px 0 0;
-        opacity: 0.9;
-    }
+a.red {
+    border-radius: 5px;
+    background-color: #BE3739;
+}
 
-    .browser-bar {
-        opacity: 0.95;
-        background: #f9f9f3;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        padding: 5px;
-        overflow: hidden;
-        border-radius: 5px 5px 0 0;
-    }
+a.red:hover {
+    color: #BE3739;
+    background-color: #eeeeee;
+}
 
-    .button {
-        display: inline-block;
-        float: left;
-        border-radius: 50%;
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-    }
+a.orange {
+    border-radius: 5px;
+    background-color: #F68034;
+}
 
-    .close {
-        background: #fc635d;
-    }
+a.orange:hover {
+    color: #F68034;
+    background-color: #eeeeee;
+}
 
-    .min {
-        background: #fdbc40;
-    }
+a.green {
+    border-radius: 5px;
+    background-color: #48A76B;
+}
 
-    .max {
-        background: #34c84a;
-    }
+a.green:hover {
+    color: #48A76B;
+    background-color: #eeeeee;
+}
+
+a.blue {
+    border-radius: 5px;
+    background-color: #5F85D4;
+}
+
+a.blue:hover {
+    color: #5F85D4;
+    background-color: #eeeeee;
+}
+
+a.purple {
+    border-radius: 5px;
+    background-color: #9C60AA;
+}
+
+a.purple:hover {
+    color: #9C60AA;
+    background-color: #eeeeee;
+}
+
+a.gray {
+    border-radius: 5px;
+    background-color: #585656;
+}
+
+a.gray:hover {
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+a.new {
+    border-radius: 0px;
+    color: #111111;
+    background-color: #eeeeee;
+}
+
+a.new:hover {
+    color: #eeeeee;
+    background-color: #111111;
+}
+
+/*
+https://www.jianshu.com/p/9220b0aaa7c7
+*/
+
+/*模糊效果*/
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding: 0px;
+}
+
+.blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    zoom: 1;
+    padding: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    background-image: url("https://api.imalan.cn/random/?c=unsplash&s=large&r=img");
+}
+
+.blur:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: inherit;
+    filter: blur(10px);
+    z-index: 2;
+}
+
+.navbar, .navbar-collapse {
+    color: #eeeeee;
+    background-color: transparent;
+    border: 0px solid black;
+}
+
+.navbar::before {
+    display: none;
+}
+
+.container-fluid a {
+    color: #eeeeee !important;
+    border-radius: 10px;
+    transition: background-color .2s !important;
+}
+
+.container-fluid a:hover, button:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+button.navbar-toggle {
+    border: 0px solid black;
+}
+
+.icon-bar {
+    color: white !important;
 }
