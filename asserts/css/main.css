@@ -36,6 +36,7 @@ p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }
 
 .list-group-item {
@@ -49,11 +50,11 @@ p {
     background-color: rgba(255, 255, 255, 0.2) !important;
     border: 0px solid black;
     background-color: transparent;
-    max-width: 900px;
+    max-width: 1250px;
 }
 
 .list-group-item a {
-    font-weight: lighter;
+    font-weight: normal;
     margin: 0px;
     font-size: 75%;
     line-height: 32px;
@@ -104,7 +105,7 @@ div.outer {
     margin: 5% 10% 5% 10%;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 1024px) {
     .list-group-item a {
         margin: 0px;
         font-size: 80%;
