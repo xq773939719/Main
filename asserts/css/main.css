@@ -127,18 +127,18 @@ a.category {
     font-style: normal;
     font-weight: normal;
     margin: 20px 0px;
-    padding: 10px 12px;
+    padding: 8px 10px;
     color: #eeeeee;
-    border-radius: 10px;
+    border-radius: 5px;
     
-    background-color: rgba(0, 0, 0, 0.4);
+
     line-height: 45px;
     font-size: 100%;
 }
 
 a.category:hover {
-    color: #111111;
-    background-color: #eeeeee;
+    color: #eeeeee;
+    background-color: transparent;
 }
 
 a.black {
