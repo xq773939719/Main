@@ -254,7 +254,8 @@ https://www.jianshu.com/p/9220b0aaa7c7
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-position: center 0;
-    background-image: url("https://api.imalan.cn/random/?c=unsplash&s=large&r=img");
+    /*background-image: url("https://api.imalan.cn/random/?c=unsplash&s=large&r=img");*/
+    background-color: #585656;
 }
 
 .blur:after {
