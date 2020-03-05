@@ -7,18 +7,31 @@
 ga('send', 'pageview');
 
 
-var display = function(color){
+const display = function(color){
 
 
-      var dis = document.getElementsByClassName(color);
-      for (var i = 0; i < dis.length; i++) {
-            if(!dis[i].style.border) {
-                  dis[i].style.border = 'solid 1px white';
+      let dis = document.getElementsByTagName('a');
+
+      // console.log(dis)
+
+      for(let i = 0; i < dis.length; i++) {
+
+            if(color === 'all') {
+                  dis[i].style.removeProperty('display');
+                  continue;
             }
+            
+
+            if(!dis[i].classList.contains(color) && !dis[i].classList.contains('no')) {
+                  // console.log(dis[i], dis[i].style)
+                  dis[i].style.display = 'none';
+            } 
             else {
-                  dis[i].style.border = null;
+                  dis[i].style.removeProperty('display');
             }
       }
+      // console.log(dis)
+
 
 }
       
